@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.full_widthh {
+    width: 100%;
+    height: auto;
+    background: grey;
+}
+
+.fix_widthh {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background: RED;
+    padding: 10px;
+}
+
+.contentt {
+    background: #ec1b26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.file-1 {
+    width: 50%;
+    background: none;
+    height: auto
+}
+
+.file-2 {
+    width: 50%;
+    background: #ec1b26;
+    height: auto;
+    -webkit-text-fill-color: white;
+}
+
+.important_img {
+    width: 100%;
+    height: auto;
+}
+
+.button{
+    background:white;
+    color:#ec1b26;
+    text-decoration:none;
+    padding:10px;
+    border-radius:140px;
+}
+
+.full_widthhh {
+    width: 100%;
+    height: auto;
+    background: grey;
+}
+
+.fix_widthhh {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background: black;
+    padding: 10px;
+}
+
+.contenttt {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.table-1 {
+    width: 50%;
+    text-align: center;
+    background: black;
+    height: auto;
+    -webkit-text-fill-color: white;
+}
+
+
+.table-2 {
+    width: 50%;
+    background: black;
+    height: auto
+}
+
+.note_img {
+    width: 100%;
+    height: auto;
+}
+
+.button-1{
+    background:white;
+    color:black;
+    text-decoration:none;
+    padding:10px;
+    border-radius:140px;
+}
+
+.full_width {
+    width: 100%;
+    height: auto;
+    background: grey
+}
+
+.fix_width {
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background: yellow;
+    padding: 10px;
+}
+
+.content {
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    width: 23%;
+    background: white;
+    height: auto;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+.main_img {
+    width: 100%;
+    height: auto;
+}
+
+.btn {
+    padding: 14px 20px;
+    font-size: 15px;
+    font-weight: 1.5em;
+    background: yellow;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background: red;
+    transform: scale(1.1);
+}
+
+.btn::after {
+    content: "\002B";
+    color: white;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width:600px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .box-1 {
+        width: 100%;
+    }
+}
